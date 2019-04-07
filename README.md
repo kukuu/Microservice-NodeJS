@@ -18,7 +18,7 @@ Supports a variety of communication patterns including request/reply, notificati
 
 1. Swagger, NodeJS, Express Framework https://github.com/kukuu/Microservice-NodeJS/tree/master/microservices 
 
-2. GraphQL, REACT & REDUXhttps://github.com/kukuu/redux-graphQL-relay
+2. GraphQL, REACT & REDUX - https://github.com/kukuu/redux-graphQL-relay
 
 ## Architectural patterns:
 
