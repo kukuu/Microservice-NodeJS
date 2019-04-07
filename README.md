@@ -2,7 +2,7 @@
 
 Choosing which architecture is right for your project is a very complex task. Flexibility, size, time frames, diversity of the team and specific conditions of the project are just some of the factors that need to be considered when deciding which software architecture is the best for your project.
 
-Microservices architecture is an approach to application development in which a large application is built as a suite of modular services. Each module supports a specific business goal and uses a simple, well-defined interface to communicate with other sets of services.
+Microservices architecture is a distrubuted system and  an approach to application development in which a large application is built as a suite of modular services. Each module supports a specific business goal and uses a simple, well-defined interface to communicate with other sets of services.
 
 When you choose to build your application as a set of microservices, you need to decide how your application’s clients will interact with the microservices. With a monolithic application there is just one set of (typically replicated, load‑balanced) endpoints. In a microservices architecture, however, each microservice exposes a set of what are typically fine‑grained endpoints.
 
