@@ -13,3 +13,9 @@ Loose coupling since it decouples client from services
 Improved availability since the message broker buffers messages until the consumer is able to process them
 
 Supports a variety of communication patterns including request/reply, notifications, request/async response, publish/subscribe, publish/async response etc
+
+## Applied solution patterns:
+
+1. Swagger, NodeJS, Express Framework https://github.com/kukuu/Microservice-NodeJS/tree/master/microservices 
+
+2. GraphQL, REACT & REDUXhttps://github.com/kukuu/redux-graphQL-relay
