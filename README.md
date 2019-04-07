@@ -14,8 +14,20 @@ Improved availability since the message broker buffers messages until the consum
 
 Supports a variety of communication patterns including request/reply, notifications, request/async response, publish/subscribe, publish/async response etc
 
-## Applied solution patterns:
+## Solution patterns:
 
 1. Swagger, NodeJS, Express Framework https://github.com/kukuu/Microservice-NodeJS/tree/master/microservices 
 
 2. GraphQL, REACT & REDUXhttps://github.com/kukuu/redux-graphQL-relay
+
+## Architectural patterns:
+
+1. https://github.com/kukuu/AGILITY/blob/master/white-paper/MICRO-SERVICES-oriented%20Architecture.png 
+
+2. https://github.com/kukuu/AGILITY/blob/master/white-paper/SOA-2.png
+
+### Contrast - SOA
+
+1. https://github.com/kukuu/AGILITY/blob/master/white-paper/SOA-1.png 
+
+
