@@ -1,5 +1,5 @@
 # Why expressjs-microservice boilerplate?
-Easy to use opinionated ExpressJS based micro-service boilerplate. This boilerplate provides a solid pattern that developers can use to scaffold and start devleop a ExpressJS (NodeJS) based microservice within seconds. The boilerplate demonstrates several key design patterns that include:
+This work provides a solid pattern used to scaffold and provide RAD for devleoping an ExpressJS (NodeJS) based microservice. It demonstrates several key design patterns that include:
 
 - Creating complex routes with route nesting
 - Use of most popular tools that are must have for any NodeJS based API project.
@@ -19,14 +19,6 @@ This boilerplate provides pre-configured:
 5. Jasmine Node Debug for debugging unit tests.
 6. Fully configured istanbul test coverage
 7. Winston logger for logging to file and console with daily rotating log file module. 
-
-## How to install?
-Getting started with this boilerplate is easy. There are two ways to install and use it
-
-### Installing manually
-Clone this repo on your workstation
-
-    git clone https://github.com/doomsbuster/expressjs-microservice.git YOUR_PROJ_NAME
 
 ### Installing as node module
 Boilerplate is also available as module from NPM and Yarn registry.
@@ -69,17 +61,11 @@ The name of the file must match the globbing pattern `**/*-IT.js`.
 - `posts-IT.js` - Matched
 - `posts-it.js` - Not matched
 
-You can customize this behavior by updating the `spec/support/jasmine-integ.json` file.
+This can customized  by updating the `spec/support/jasmine-integ.json` file.
 
-Run your integration test using the command:
+Run  integration test using the command:
 
     npm run integtest
 
 ## What does it not provide?
-This project does come with test coverage for all files as they are expected to be removed or different for your projects. Samples are for demonstration of the concept and the pattern only.
-
-## Contributing
-Fork the repo and submit a pull request.
-
-## License
-Mr. Doomsbuster doesn't care about attribution. All source code is license under [Do What The Fuck You Want To (WTFPL)](https://ashishdesai.com/license.txt) public license.
+This project does come with test coverage.
