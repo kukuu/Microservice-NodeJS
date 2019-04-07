@@ -17,19 +17,6 @@ Improved availability since the message broker buffers messages until the consum
 Supports a variety of communication patterns including request/reply, notifications, request/async response, publish/subscribe, publish/async response etc
 
 
-## Drawbacks
-
-Microservices enforce loose coupling, plus it’s easier to develop fast and reliable deployment pipelines if they only have to handle small packages.
-
-However, note microservices introduced a new problem: if adding a feature was often going to require adding a new, independently deployed and hosted service then that process had to be fast and not require any specialist knowledge. 
-
-Demanding that every single developer in the company learn the intricacies of maintaining Puppet configuration for all their services would have been impractical and more than a little cruel.
-
-### Challenges to Micro-servie
-
-See section ''' This pattern has the following drawback'''  here https://github.com/kukuu/AGILITY
-
-
 ## Solution patterns:
 
 1. Swagger, NodeJS, Express Framework https://github.com/kukuu/Microservice-NodeJS/tree/master/microservices 
@@ -46,4 +33,13 @@ See section ''' This pattern has the following drawback'''  here https://github.
 
 1. https://github.com/kukuu/AGILITY/blob/master/white-paper/SOA-1.png 
 
+## Challenges to Micro-servie
+
+Microservices enforce loose coupling, plus it’s easier to develop fast and reliable deployment pipelines if they only have to handle small packages.
+
+However, note microservices introduced a new problem: if adding a feature was often going to require adding a new, independently deployed and hosted service then that process had to be fast and not require any specialist knowledge. 
+
+Demanding that every single developer in the company learn the intricacies of maintaining Puppet configuration for all their services would have been impractical and more than a little cruel.
+
+Extended read -  ''' This pattern has the following drawbacks'''  here https://github.com/kukuu/AGILITY
 
