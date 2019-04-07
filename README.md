@@ -41,5 +41,7 @@ However, note microservices introduced a new problem: if adding a feature was of
 
 Demanding that every single developer in the company learn the intricacies of maintaining Puppet configuration for all their services would have been impractical and more than a little cruel.
 
-Extended read -  ''' This pattern has the following drawbacks'''  here https://github.com/kukuu/AGILITY
+### Addressing Drawbacks & Architecting with API Gateways
+
+See section '' This pattern has the following drawbacks ''  here https://github.com/kukuu/AGILITY
 
