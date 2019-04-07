@@ -1,4 +1,4 @@
-# Why expressjs-microservice boilerplate?
+#  Micro-service API with NodeJS and Express Framework
 This work provides a solid pattern used to scaffold and provide RAD for devleoping an ExpressJS (NodeJS) based microservice. It demonstrates several key design patterns that include:
 
 - Creating complex routes with route nesting
