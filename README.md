@@ -8,7 +8,7 @@ When you choose to build your application as a set of microservices, you need to
 
 Services must handle requests from the application’s clients. Furthermore, services must sometimes collaborate to handle those requests. They must use an inter-process communication protocol. Use asynchronous messaging for inter-service communication. Services communicating by exchanging messages over messaging channels. Examples of asynchronous messaging technologies are Apache Kafka and RabbitMQ.
 
-## This pattern has the following benefits:
+## This pattern has the following benefits
 
 Loose coupling since it decouples client from services
 
@@ -17,7 +17,7 @@ Improved availability since the message broker buffers messages until the consum
 Supports a variety of communication patterns including request/reply, notifications, request/async response, publish/subscribe, publish/async response etc
 
 
-## Solution patterns:
+## Solution patterns
 
 1. Swagger, NodeJS, Express Framework https://github.com/kukuu/Microservice-NodeJS/tree/master/microservices 
 
