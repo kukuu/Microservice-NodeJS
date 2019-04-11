@@ -43,5 +43,5 @@ Demanding that every single developer in the company learn the intricacies of ma
 
 ### Addressing Drawbacks & Architecting with API Gateways
 
-See section '' This pattern has the following drawbacks ''  here https://github.com/kukuu/AGILITY
+See section ' This pattern has the following drawbacks '  here https://github.com/kukuu/AGILITY
 
