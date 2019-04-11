@@ -66,6 +66,12 @@ This can customized  by updating the `spec/support/jasmine-integ.json` file.
 Run  integration test using the command:
 
     npm run integtest
+    
+## Making requests
+
+    1. http://localhost:3019/api/posts
+    2. http://localhost:3019/api/posts/post?postId=1
+    3. http://localhost:3019/api/posts/5
 
 ## What does it not provide?
 This project does come with test coverage.
