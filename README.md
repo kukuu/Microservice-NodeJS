@@ -46,7 +46,6 @@ Resolution:
 
 	4.   Use Containerisation
 
-### Challenges and bottlenecks to Micro-services
 
 #### Direct Client‑to‑Microservice Communication
 
