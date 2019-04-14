@@ -22,7 +22,7 @@ Supports a variety of communication patterns including request/reply, notificati
 
 2. GraphQL, REACT & REDUX - https://github.com/kukuu/redux-graphQL-relay
 
-## Challenges to Micro-servie
+## Challenges to Micro-services
 
 Microservices enforce loose coupling, plus it’s easier to develop fast and reliable deployment pipelines if they only have to handle small packages.
 
