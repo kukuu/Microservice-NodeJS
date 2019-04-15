@@ -169,6 +169,7 @@ You will need a  Consul to store and  manage service states.
 
 #### Summary
 
++ves
 ```
 1. The application starts faster, which makes developers more productive, and speeds up deployments.
 
@@ -184,6 +185,15 @@ You will need a  Consul to store and  manage service states.
 
 ```
 
+-ves
+```
+1. Developers must deal with the additional complexity of creating a distributed system.
+
+2. Deployment complexity. In production, there is also the operational complexity of deploying and managing a system comprised of many different service types.
+
+3. As you’re building a new microservice architecture, you’re likely to discover lots of cross-cutting concerns that you did not anticipate at design time.
+
+```
 
 ## Architectural patterns:
 
