@@ -167,6 +167,24 @@ You will need a  Consul to store and  manage service states.
 
 	11.	The new build is now online.
 
+#### Summary
+
+```
+1. The application starts faster, which makes developers more productive, and speeds up deployments.
+
+2. Each service can be deployed independently of other services — easier to deploy new versions of services frequently
+
+3. Easier to scale development and can also have performance advantages.
+
+4. Eliminates any long-term commitment to a technology stack. When developing a new service you can pick a new technology stack.
+
+5. Microservices are typically better organized, since each microservice has a very specific job, and is not concerned with the jobs of other components.
+
+6. Decoupled services are also easier to recompose and reconfigure to serve the purposes of different apps (for example, serving both the web clients and public API).
+
+```
+
+
 ## Architectural patterns:
 
 1. https://github.com/kukuu/AGILITY/blob/master/white-paper/MICRO-SERVICES-oriented%20Architecture.png 
