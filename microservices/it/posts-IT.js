@@ -27,7 +27,7 @@ describe('GET /posts', function() {
 
     it('/:postId should return 200', function(done) {
         request(require('../app'))
-            .get('/api/posts/5')
+            .get('/api/posts/7')
             .expect(200)
             .end(function(err, res) {
                 helper.end(err, res, done);
