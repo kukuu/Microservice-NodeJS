@@ -28,10 +28,6 @@ Supports a variety of communication patterns including request/reply, notificati
 
 3. Cinema Micro-service : https://github.com/kukuu/cinema-microservice 
 
-4. Building Microservices with Node, Docker and Nginx (i) : https://www.youtube.com/watch?v=aWxR05rUoto 
-
-5. Building Microservices with Node, Docker and Nginx (ii)  : https://www.youtube.com/watch?v=QjhJs31h_4k
-
 ## Challenges to Micro-services
 
 Microservices enforce loose coupling, plus it’s easier to develop fast and reliable deployment pipelines if they only have to handle small packages.
@@ -254,3 +250,9 @@ A monolithic application describes a single-tiered software application in which
 - https://github.com/kukuu/AGILITY/blob/master/white-paper/SOA-2.png 
 
 - https://github.com/kukuu/AGILITY/blob/master/white-paper/SOA-1.png 
+
+4. Building Microservices with Node, Docker and Nginx (i) : https://www.youtube.com/watch?v=aWxR05rUoto 
+
+5. Building Microservices with Node, Docker and Nginx (ii)  : https://www.youtube.com/watch?v=QjhJs31h_4k
+
+6. Micro-services, Docker and Kubernetes - https://www.youtube.com/watch?v=1xo-0gCVhTU
