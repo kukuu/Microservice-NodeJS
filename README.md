@@ -205,3 +205,10 @@ You will need a  Consul to store and  manage service states.
 
 1. https://github.com/kukuu/AGILITY/blob/master/white-paper/SOA-1.png 
 
+### Applications
+
+1. NodeJS Micro-service : https://github.com/kukuu/Microservice-NodeJS 
+
+2. Cinema Micro-service : https://github.com/kukuu/cinema-microservice
+
+
