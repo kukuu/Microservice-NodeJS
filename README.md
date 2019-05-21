@@ -195,20 +195,41 @@ You will need a  Consul to store and  manage service states.
 
 ```
 
-## Architectural patterns:
+## Architectural patterns & styles:
 
-1. https://github.com/kukuu/AGILITY/blob/master/white-paper/MICRO-SERVICES-oriented%20Architecture.png 
+There are many recognized architectural patterns and styles, among them:
 
-2. https://github.com/kukuu/AGILITY/blob/master/white-paper/SOA-2.png
+```
 
-### Contrast - SOA
+1. Client-server (2-tier, 3-tier, n-tier, cloud computing exhibit this style)
 
-1. https://github.com/kukuu/AGILITY/blob/master/white-paper/SOA-1.png 
+2. Layered (or multilayered architecture)
 
-### Applications
+3. Microservices architecture
+
+4. Monolithic application
+
+5. Component-based
+
+6. Event Driven  / Implicit invocation
+
+7. Data-centric
+
+```
+### Resources
+
+1. Tier & Layered https://github.com/kukuu/AGILITY/blob/master/white-paper/tier-layer-README.md
+
+2. Microservices - https://github.com/kukuu/AGILITY/blob/master/white-paper/MICRO-SERVICES-oriented%20Architecture.png 
+
+3. SOA 
+
+- https://github.com/kukuu/AGILITY/blob/master/white-paper/SOA-2.png 
+
+- https://github.com/kukuu/AGILITY/blob/master/white-paper/SOA-1.png 
+
+## Applications
 
 1. NodeJS Micro-service : https://github.com/kukuu/Microservice-NodeJS 
 
 2. Cinema Micro-service : https://github.com/kukuu/cinema-microservice
-
-
