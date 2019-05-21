@@ -36,19 +36,23 @@ Demanding that every single developer in the company learn the intricacies of ma
 
 Resolution:
 
-	1.	Set up feature teams  that can possibly set up a new service in under four hours. What this means
-		is Developing services should not   require knowledge of the infrastructure and changing 
-		infrastructure should not require detailed knowledge of the services running on it. 
-		If we need to change the hostname or port a service runs on it should require no changes
-		to the service itself.
+	1.	Set up feature teams  that can possibly set up a new service in under four hours. 
+	        What this means
+		is Developing services should not   require knowledge of the infrastructure and 
+		changing infrastructure should not require detailed knowledge of the services 
+		running on it. 
+		If we need to change the hostname or port a service runs on it should require 
+		no changes to the service itself.
 
-	2.	All project configuration—from build process to health monitoring—must be contained within the 
-		project repository. Anything else introduces hidden dependencies for deployment that threaten
-		to break the pipeline and require specialist knowledge to debug.
+	2.	All project configuration—from build process to health monitoring—must be contained 
+	        within the project repository. Anything else introduces hidden dependencies for 
+		deployment that threaten to break the pipeline and require specialist 
+		knowledge to debug.
 
-	3.	The above configuration should be declarative and not require adding dependencies to the project.
+	3.	The above configuration should be declarative and not require adding dependencies 
+	         to the project.
 
-	4.   Use Containerisation
+	4.      Use Containerisation
 
 
 #### Direct Client‑to‑Microservice Communication
@@ -171,17 +175,22 @@ You will need a  Consul to store and  manage service states.
 
 +ves
 ```
-1. The application starts faster, which makes developers more productive, and speeds up deployments.
+1. The application starts faster, which makes developers more productive, and speeds
+   up deployments.
 
-2. Each service can be deployed independently of other services — easier to deploy new versions of services frequently
+2. Each service can be deployed independently of other services — easier to deploy new 
+   versions of services frequently
 
 3. Easier to scale development and can also have performance advantages.
 
-4. Eliminates any long-term commitment to a technology stack. When developing a new service you can pick a new technology stack.
+4. Eliminates any long-term commitment to a technology stack. When developing a new service
+   you can pick a new technology stack.
 
-5. Microservices are typically better organized, since each microservice has a very specific job, and is not concerned with the jobs of other components.
+5. Microservices are typically better organized, since each microservice has a very specific job,
+and is not concerned with the jobs of other components.
 
-6. Decoupled services are also easier to recompose and reconfigure to serve the purposes of different apps (for example, serving both the web clients and public API).
+6. Decoupled services are also easier to recompose and reconfigure to serve the purposes of 
+   different apps (for example, serving both the web clients and public API).
 
 ```
 
@@ -189,11 +198,18 @@ You will need a  Consul to store and  manage service states.
 ```
 1. Developers must deal with the additional complexity of creating a distributed system.
 
-2. Deployment complexity. In production, there is also the operational complexity of deploying and managing a system comprised of many different service types.
+2. Deployment complexity. In production, there is also the operational complexity of deploying 
+   and managing a system comprised of many different service types.
 
-3. As you’re building a new microservice architecture, you’re likely to discover lots of cross-cutting concerns that you did not anticipate at design time.
+3. As you’re building a new microservice architecture, you’re likely to discover lots of 
+   cross-cutting concerns that you did not anticipate at design time.
 
 ```
+
+### Deploying Micro -services
+
+Containers or Severless - https://github.com/kukuu/AGILITY/tree/master/white-paper/severlessComputing-vs-containers
+
 
 ## Architectural patterns & styles:
 
