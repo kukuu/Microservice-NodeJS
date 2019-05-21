@@ -251,6 +251,10 @@ A monolithic application describes a single-tiered software application in which
 
 - https://github.com/kukuu/AGILITY/blob/master/white-paper/SOA-1.png 
 
+4. Docker - https://www.youtube.com/watch?v=YFl2mCHdv24 
+
+5. Docker Compose with Volumes - https://www.youtube.com/watch?v=Qw9zlE3t8Ko
+
 4. Building Microservices with Node, Docker and Nginx (i) : https://www.youtube.com/watch?v=aWxR05rUoto 
 
 5. Building Microservices with Node, Docker and Nginx (ii)  : https://www.youtube.com/watch?v=QjhJs31h_4k
