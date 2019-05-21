@@ -20,11 +20,19 @@ Improved availability since the message broker buffers messages until the consum
 
 Supports a variety of communication patterns including request/reply, notifications, request/async response, publish/subscribe, publish/async response etc
 
-## Solution patterns
+## Applications
 
 1. Swagger, NodeJS, Express Framework https://github.com/kukuu/Microservice-NodeJS/tree/master/microservices 
 
-2. GraphQL, REACT & REDUX - https://github.com/kukuu/redux-graphQL-relay
+2. GraphQL, REACT & REDUX - https://github.com/kukuu/redux-graphQL-relay 
+
+3. NodeJS Micro-service : https://github.com/kukuu/Microservice-NodeJS 
+
+4. Cinema Micro-service : https://github.com/kukuu/cinema-microservice 
+
+5. Building Microservices with Node, Docker and Nginx (i) : https://www.youtube.com/watch?v=aWxR05rUoto 
+
+6. Building Microservices with Node, Docker and Nginx (ii)  : https://www.youtube.com/watch?v=QjhJs31h_4k
 
 ## Challenges to Micro-services
 
@@ -248,13 +256,3 @@ A monolithic application describes a single-tiered software application in which
 - https://github.com/kukuu/AGILITY/blob/master/white-paper/SOA-2.png 
 
 - https://github.com/kukuu/AGILITY/blob/master/white-paper/SOA-1.png 
-
-## Applications
-
-1. NodeJS Micro-service : https://github.com/kukuu/Microservice-NodeJS 
-
-2. Cinema Micro-service : https://github.com/kukuu/cinema-microservice 
-
-3. Building Microservices with Node, Docker and Nginx (i) : https://www.youtube.com/watch?v=aWxR05rUoto 
-
-4. Building Microservices with Node, Docker and Nginx (ii)  : https://www.youtube.com/watch?v=QjhJs31h_4k
