@@ -26,13 +26,11 @@ Supports a variety of communication patterns including request/reply, notificati
 
 2. GraphQL, REACT & REDUX - https://github.com/kukuu/redux-graphQL-relay 
 
-3. NodeJS Micro-service : https://github.com/kukuu/Microservice-NodeJS 
+3. Cinema Micro-service : https://github.com/kukuu/cinema-microservice 
 
-4. Cinema Micro-service : https://github.com/kukuu/cinema-microservice 
+4. Building Microservices with Node, Docker and Nginx (i) : https://www.youtube.com/watch?v=aWxR05rUoto 
 
-5. Building Microservices with Node, Docker and Nginx (i) : https://www.youtube.com/watch?v=aWxR05rUoto 
-
-6. Building Microservices with Node, Docker and Nginx (ii)  : https://www.youtube.com/watch?v=QjhJs31h_4k
+5. Building Microservices with Node, Docker and Nginx (ii)  : https://www.youtube.com/watch?v=QjhJs31h_4k
 
 ## Challenges to Micro-services
 
