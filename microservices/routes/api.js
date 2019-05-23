@@ -3,7 +3,7 @@
 let express = require('express');
 let postsEndpoint = require('./posts');
 let repoEndpoint = require('./repo/repo');
-let checkoutEndpoint = require('./repo/repo');
+let checkoutEndpoint = require('./checkout');
 
 let router = express.Router();
 
