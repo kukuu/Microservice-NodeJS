@@ -1,10 +1,11 @@
 'use strict';
 
-var express = require('express');
-var postsEndpoint = require('./posts');
-var repoEndpoint = require('./repo/repo');
+let express = require('express');
+let postsEndpoint = require('./posts');
+let repoEndpoint = require('./repo/repo');
+let checkoutEndpoint = require('./repo/repo');
 
-var router = express.Router();
+let router = express.Router();
 
 //---------------------------------------------------------------
 // API Route specification
@@ -16,9 +17,9 @@ router.use('/checkout', checkoutEndpoint);
 //---------------------------------------------------------------
 // Swagger API Specification - swagger-jsdoc
 //---------------------------------------------------------------
-var swaggerJSDoc = require('swagger-jsdoc');
+let swaggerJSDoc = require('swagger-jsdoc');
 
-var options = {
+let options = {
 	swaggerDefinition: {
 		info: {
 			title: 'NodeJS Microservices - ExpressJS API',
@@ -56,7 +57,7 @@ var options = {
 	apis: ['routes/api.js', 'routes/posts.js', 'routes/repo/repo.js', 'routes/repo/images.js'],
 };
 
-var swaggerSpec = swaggerJSDoc(options);
+let swaggerSpec = swaggerJSDoc(options);
 
 //---------------------------------------------------------------
 // Expose swagger.json at /api/swagger.json
