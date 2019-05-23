@@ -11,6 +11,7 @@ var router = express.Router();
 //---------------------------------------------------------------
 router.use('/posts', postsEndpoint);
 router.use('/repo', repoEndpoint);
+router.use('/checkout', checkoutEndpoint);
 
 //---------------------------------------------------------------
 // Swagger API Specification - swagger-jsdoc
