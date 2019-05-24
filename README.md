@@ -20,6 +20,11 @@ Improved availability since the message broker buffers messages until the consum
 
 Supports a variety of communication patterns including request/reply, notifications, request/async response, publish/subscribe, publish/async response etc
 
+
+## Reasons to move away from Monolithic
+
+https://github.com/kukuu/Microservice-NodeJS/blob/master/microservice-snapshots/1.png
+
 ## Applications
 
 1. Swagger, NodeJS, Express Framework https://github.com/kukuu/Microservice-NodeJS/tree/master/microservices 
