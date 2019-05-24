@@ -5,9 +5,9 @@ var request = require('supertest');
 var service = require('../services/PostsService');
 var helper = require('../spec/helpers/common');
 
-describe('GET /posts', function() {
+describe('GET /posts', () =>  {
 
-    it('should return 200', function(done) {
+    it('should return 200', (done) =>  {
         request(require('../app'))
             .get('/api/posts')
             .expect(200)
@@ -16,7 +16,7 @@ describe('GET /posts', function() {
             });
     });
 
-    it('/post should return 200', function(done) {
+    it('/post should return 200', (done) => {
         request(require('../app'))
             .get('/api/posts/post?postId=1')
             .expect(200)
@@ -25,7 +25,7 @@ describe('GET /posts', function() {
             });
     });
 
-    it('/:postId should return 200', function(done) {
+    it('/:postId should return 200', (done) => {
         request(require('../app'))
             .get('/api/posts/7')
             .expect(200)
