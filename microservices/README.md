@@ -1,5 +1,9 @@
 #  Micro-service API with NodeJS and Express Framework
-This work provides a solid pattern used to scaffold and provide RAD for devleoping an ExpressJS (NodeJS) based microservice. It demonstrates several key design patterns that include:
+This work provides a solid pattern used to scaffold and provide RAD for devleoping an ExpressJS (NodeJS) based microservice.
+
+Microservice & SOA - https://github.com/kukuu/AGILITY/blob/master/SOA-and-MicroServices.md 
+
+This work demonstrates several key design patterns that include:
 
 - Creating complex routes with route nesting
 - Use of most popular tools that are must have for any NodeJS based API project.
