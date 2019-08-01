@@ -12,6 +12,12 @@ When you choose to build your application as a set of microservices, you need to
 
 Services must handle requests from the application’s clients. Furthermore, services must sometimes collaborate to handle those requests. They must use an inter-process communication protocol. Use asynchronous messaging for inter-service communication. Services communicating by exchanging messages over messaging channels. Examples of asynchronous messaging technologies are Apache Kafka and RabbitMQ. Communication can also be established using REST.
 
+Snapshots
+
+1. Monolithic to Miccro-services - https://github.com/kukuu/Microservice-NodeJS/tree/master/microservice-snapshots 
+2. Orchestrating with Kubernetes - https://github.com/kukuu/Microservice-NodeJS/tree/master/kubernetes
+
+
 ## This pattern has the following benefits
 
 Loose coupling since it decouples client from services
