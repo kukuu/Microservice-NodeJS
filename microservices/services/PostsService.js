@@ -1,4 +1,7 @@
 'use strict';
+
+//Request-Promise-Native. This package is similar to request-promise but uses native ES6+ promises.
+//Instead of using Bluebird promises this library uses native ES6+ promises.
 var request = require('request-promise-native');
 
 module.exports = {
