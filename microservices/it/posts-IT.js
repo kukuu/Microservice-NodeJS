@@ -1,12 +1,12 @@
 'use strict'
 
 var express = require('express');
-var request = require('supertest');
+var request = require('supertest');//Integration tests
 var service = require('../services/PostsService');
 var helper = require('../spec/helpers/common');
 
 describe('GET /posts', function() {
-
+//API tests
     it('should return 200', function(done) {
         request(require('../app'))
             .get('/api/posts')
