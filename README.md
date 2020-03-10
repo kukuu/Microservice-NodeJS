@@ -35,9 +35,13 @@ https://github.com/kukuu/Microservice-NodeJS/blob/master/microservice-snapshots/
 
 1. Swagger, NodeJS, Express Framework https://github.com/kukuu/Microservice-NodeJS/tree/master/microservices 
 
-2. GraphQL, REACT & REDUX - https://github.com/kukuu/redux-graphQL-relay 
+2. JavaScript and Express, Docker and NGINX - 
 
-3. Cinema Micro-service : https://github.com/kukuu/cinema-microservice 
+https://github.com/kukuu/microservices-nodejs-docker-nginx
+
+3. GraphQL, REACT & REDUX - https://github.com/kukuu/redux-graphQL-relay 
+
+4. Cinema Micro-service : https://github.com/kukuu/cinema-microservice 
 
 ## Challenges to Micro-services
 
