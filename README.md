@@ -190,7 +190,7 @@ You will need a  Consul to store and  manage service states.
 
 #### Summary
 
-+ves
+Pros:
 ```
 1. The application starts faster, which makes developers more productive, and speeds
    up deployments.
@@ -211,7 +211,7 @@ and is not concerned with the jobs of other components.
 
 ```
 
--ves
+Cons:
 ```
 1. Developers must deal with the additional complexity of creating a distributed system.
 
@@ -225,7 +225,9 @@ and is not concerned with the jobs of other components.
 
 ### Deploying Micro -services
 
-Containers or Severless - https://github.com/kukuu/AGILITY/tree/master/white-paper/severlessComputing-vs-containers
+Containers or Severless
+
+- https://github.com/kukuu/AGILITY/tree/master/white-paper/severlessComputing-vs-containers
 
 
 ## Architectural patterns & styles:
