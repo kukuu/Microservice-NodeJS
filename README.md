@@ -20,11 +20,11 @@ Snapshots
 
 ## This pattern has the following benefits
 
-Loose coupling since it decouples client from services
+- Loose coupling since it decouples clients from services
 
-Improved availability since the message broker buffers messages until the consumer is able to process them
+- Improved availability since the message broker buffers messages until the consumer is able to process them
 
-Supports a variety of communication patterns including request/reply, notifications, request/async response, publish/subscribe, publish/async response etc
+- Supports a variety of communication patterns including request/reply, notifications, request/async response, publish/subscribe, publish/async response etc
 
 
 ## Reasons to move away from Monolithic
