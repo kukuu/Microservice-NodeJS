@@ -1,6 +1,6 @@
 # NodeJS/Express Micro-services
 
-Choosing which architecture is right for your project is a very complex task. Flexibility, size, time frames, diversity of the team and specific conditions of the project are just some of the factors that need to be considered when deciding which software architecture is the best for your project.
+Choosing which architecture is right for your project is a very complex task. Complexityy, Flexibility, size, time frames, diversity of the team and specific conditions of the project are just some of the factors that need to be considered when deciding which software architecture is the best for your project.
 
 Microservices architecture is a distrubuted system of single self-contained units, and  an approach to application development in which a large application is built as a suite of modular services. Each module supports a specific business goal and uses a simple, well-defined interface to communicate with other sets of services.
 
